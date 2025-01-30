@@ -11,7 +11,7 @@
   
   <!-- API -->
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&"/>
 </head>
 <body>
   <main class="container">
@@ -22,6 +22,30 @@
       <div class="form-content">
         <form method="post" accept-charset="utf-8" autocomplete="on">
           
+          <header>
+            <h1>Login</h1>
+          </header>
+          
+          <div class="input-email">
+            <label for="input-email"><i class="material-symbols-outlined">
+                account_circle
+              </i></label>
+            
+            <input type="email" name="input-email" id="input-email" autocomplete="email" minlength="3" maxlength="25" placeholder="Digite seu Email:" required/>
+          </div>
+          <div class="input-password">
+            
+            <label for="input-password"><i class="material-symbols-outlined">key</i></label>
+            
+            <input type="password" name="input-password" id="input-password" minlength="8" maxlength="20" autocomplete="current-password" onpaste="return false" oncopy="return false" oncut="return false" placeholder="Digite sua Senha:" required/>
+          </div>
+          <div class="btn-field">
+            <button type="submit">Logar</button>
+          </div>
+          <div class="forgot-password">
+            
+            <a href="#">Esqueceu sua senha? <i class="material-symbols-outlined">mail</i></a>
+          </div>
         </form>
       </div>
     </section>
