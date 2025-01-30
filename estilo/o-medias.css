@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root{
+  --color-1: #49a09d;
+  --color-2: #5f2c82;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  
+  body{
+    background: linear-gradient(to top, var(--color-1), var(--color-2));
+  }
+  .content{
+    width: 80vw;
+  }
+  .content > .img-content{
+    float: right;
+    width: 30%;
+    height: 100%;
+  }
+  .content > .form-content{
+    float: left;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 992px){
+  
+  body{
+    background: linear-gradient(to top, var(--color-1), var(--color-2));
+  }
+  .content{
+    width: 950px;
+  }
+  .content > .img-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+  .content > .form-content{
+    float: left;
+    width: 50%;
+  }
+}
