@@ -51,3 +51,79 @@ div{
 .content > .form-content{
   padding: 10px;
 }
+.content > .form-content > form > .input-email, .input-password{
+  
+  background-color: var(--color-2);
+  margin: 5px 0px;
+  width: 100%;
+  display: block;
+  height: 40px;
+  border-radius: 5px;
+}
+.content > .form-content > form > .input-email > label > i, .input-password > label > i{
+  
+  color: #fff;
+  font-size: 2em;
+  width: 40px;
+  padding: 8px;
+}
+.input-email > input, .input-password > input{
+  
+  background-color: #94cfcd;
+  width: cal(100% - 44px);
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  transform: translateY(-15px);
+  cursor: text;
+  outline: none;
+}
+.input-email > input:focus-within, .input-password > input:focus-within{
+  
+  background-color: #fff;
+}
+.content > .form-content > form > .btn-field > button{
+   
+   display: block;
+   font-size: 1em;
+   background-color: var(--color-1);
+   width: 100%;
+   height: 40px;
+   border-radius: 5px;
+   cursor: pointer;
+   border: none;
+   color: #fff;
+}
+.content > .form-content > form > .btn-field > button:hover{
+  
+  background-color: #2de462;
+  transition: background-color .5s;
+}
+.content > .form-content > form > .forgot-password{
+  
+  margin-top: 5px;
+}
+.content > .form-content > form > .forgot-password > a{
+  
+  display: block;
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--color-1);
+  border-radius: 5px;
+  color: var(--color-1);
+  padding-top: 10px;
+}
+.content > .form-content > form > .forgot-password > a:hover{
+  
+  background-color: var(--color-1);
+  color: #fff;
+  transition: background-color .5s;
+}
+.content > .form-content > form > .forgot-password > a > i{
+  
+  font-size: 0.8em;
+}
